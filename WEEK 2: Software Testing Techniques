@@ -1,0 +1,148 @@
+📅 WEEK 2: Software Testing Techniques (DETAILED NOTES)
+
+1️⃣ What are Software Testing Techniques?
+Testing techniques are methods used to design test cases in a systematic way so that:
+-Maximum defects are found
+-Minimum time & effort is used
+-Testing is not random
+
+🧠 One-line exam answer:
+Software testing techniques are structured approaches used to create effective test cases.
+
+2️⃣ UI Testing (User Interface Testing)
+What is UI Testing?
+UI testing checks how the application looks and behaves from the user’s point of view.
+
+It focuses on:
+Screens
+Buttons
+Text boxes
+Links
+Colors
+Layout
+
+What do we check in UI Testing?
+✅ Alignment of elements
+✅ Font size & color
+✅ Button functionality
+✅ Labels & spelling
+✅ Screen resolution compatibility
+
+📌 Example: Login Page
+Username field accepts input
+Password is masked
+Login button works
+Error message appears for wrong login
+UI Testing Example (Simple)
+
+Test Case:
+Test Case ID: UI_001
+Scenario: Login Button Functionality
+Steps:
+1. Open login page
+2. Enter valid username & password
+3. Click login
+Expected Result:
+User should be redirected to dashboard
+
+3️⃣ Usability Testing (MOST IMPORTANT)
+What is Usability Testing?
+Usability testing checks:
+How easy and comfortable the software is for users.
+
+It answers:
+-Is it easy to use?
+-Is navigation clear?
+-Can a normal user understand it?
+
+🧠 Key Line:
+Usability testing focuses on user experience, not just functionality.
+
+Why Usability Testing Matters?
+Users leave confusing apps
+Poor UX = business loss
+Good usability = user retention
+📌 Real Example:
+If users can’t find “Checkout” button → they won’t buy.
+
+4️⃣ Types of Usability Testing
+🔹 1. Exploratory Testing
+No predefined test case
+Tester explores the app like a real user
+Best for early stages
+📌 Example:
+Opening app and randomly checking flows.
+
+🔹 2. Moderated Usability Testing
+Real users + observer
+Observer notes difficulties
+📌 Used in:
+Banking, healthcare apps
+
+🔹 3. Unmoderated Usability Testing
+Users test independently
+Feedback recorded automatically
+📌 Used in:
+Large-scale apps
+
+🔹 4. A/B Testing
+Two versions tested
+Best version selected
+📌 Example:
+Two “Buy Now” buttons → which gets more clicks?
+
+5️⃣ Test Data – Meaning
+What is Test Data?
+Test Data is the input provided to the software to test its behavior.
+
+🧠 Exam Line:
+Test data is a set of values used to execute test cases.
+
+6️⃣ Types of Test Data
+🔹 1. Valid Test Data
+Correct input
+Expected to work
+📌 Example:
+Email: user@gmail.com
+
+🔹 2. Invalid Test Data
+Incorrect input
+Tests error handling
+📌 Example:
+Email: user@
+
+🔹 3. Boundary Test Data
+Extreme values
+📌 Example:
+Password length: 8 → test 7, 8, 9
+
+🔹 4. Negative Test Data
+Unexpected inputs
+📌 Example:
+Special characters in name field
+
+7️⃣ Preparing Test Data
+Steps:
+Understand requirements
+Identify input fields
+Decide valid/invalid cases
+Create reusable datasets
+Secure sensitive data
+
+⚠️ Important:
+Never use real customer data in testing.
+
+🎯 Common Mistakes (Students Do This a LOT)
+
+❌ Only testing happy path
+❌ Ignoring UI alignment
+❌ No negative test data
+❌ Assuming usability = UI only
+
+🧠 Interview-Ready Q&A
+
+Q: Difference between UI & Usability Testing?
+UI Testing	      ,Usability Testing
+Look & feel	User ,experience
+Visual elements	 ,Ease of use
+Functional	     ,Behavioral
