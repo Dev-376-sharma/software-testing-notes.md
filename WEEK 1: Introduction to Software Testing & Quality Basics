@@ -1,0 +1,85 @@
+WEEK 1: Introduction to Software Testing & Quality Basics
+1️⃣ What is Software Testing?
+Software Testing is the process of:
+Finding defects (bugs) in software and ensuring it meets user requirements before release.
+
+Why Testing is IMPORTANT?
+Prevents financial loss 💰
+Improves user trust 🙌
+Ensures security & performance
+Reduces future maintenance cost
+
+📌 Real Example:
+A payment app without testing → wrong balance → users lose money → company loses reputation.
+
+2️⃣ Software Quality – Meaning & Importance
+What is Software Quality?
+Software quality means:
+Software does what user expects
+Works correctly, securely, and efficiently
+Is easy to use and maintain
+
+Key Quality Attributes:
+Functionality
+Reliability
+Usability
+Performance
+Security
+Maintainability
+
+🧠 Easy line for exams/interviews:
+Software quality ensures customer satisfaction by delivering defect-free and reliable software.
+
+3️⃣ STLC (Software Testing Life Cycle)
+STLC defines testing activities step-by-step.
+STLC Phases:
+Requirement Analysis
+Test Planning
+Test Case Design
+Test Environment Setup
+Test Execution
+Test Cycle Closure
+
+📌 Why STLC matters?
+Proper planning
+Less confusion
+Better defect tracking
+Higher quality product
+
+4️⃣ V-Model (Verification & Validation Model)
+What is V-Model?
+It shows development & testing run in parallel.
+Development Phase	Testing Phase
+Requirements	Acceptance Testing
+System Design	System Testing
+Architecture Design	Integration Testing
+Coding	Unit Testing
+
+📌 Key Point:
+Testing starts early, not after coding.
+
+🧠 Exam Tip:
+V-Model reduces late defect detection.
+
+5️⃣ Types of Software Testing (Intro)
+Broad Types:
+Manual Testing
+Automation Testing
+
+Functional Testing:
+Unit Testing
+Integration Testing
+System Testing
+User Acceptance Testing (UAT)
+
+Non-Functional Testing:
+Performance
+Security
+Usability
+Compatibility
+
+🎯 Common Beginner Mistakes
+❌ Thinking testing = clicking randomly
+❌ Ignoring requirements
+❌ No documentation
+❌ Late testing
