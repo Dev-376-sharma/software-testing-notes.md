@@ -1,0 +1,144 @@
+WEEK 3: Advanced Testing Types & Approaches (DETAILED)
+1️⃣ Manual Testing vs Automation Testing
+🔹 Manual Testing
+Manual Testing means:
+Testing the software by a human without using scripts or tools.
+
+Where Manual Testing is Used?
+New features
+UI & usability
+Exploratory testing
+Small projects
+
+Advantages:
+✅ Easy to start
+✅ Better for UX issues
+✅ No coding needed
+
+Disadvantages:
+❌ Time-consuming
+❌ Repetitive work
+❌ Human errors possible
+
+📌 Example:
+Testing login page manually by entering different usernames/passwords.
+
+🔹 Automation Testing
+Automation Testing means:
+Using tools/scripts to test software automatically.
+
+Where Automation is Used?
+Regression testing
+Load testing
+Repetitive test cases
+Large projects
+
+Advantages:
+✅ Fast execution
+✅ High accuracy
+✅ Saves time long-term
+
+Disadvantages:
+❌ Initial setup cost
+❌ Requires coding knowledge
+❌ Not good for usability testing
+
+📌 Example:
+Using Selenium to test login functionality multiple times.
+
+🧠 Manual vs Automation (Exam Table)
+Manual Testing	     Automation Testing
+Human effort	       Tool-based
+Slow	               Fast
+Less cost initially	 High setup cost
+Better for UI/UX	   Better for regression
+
+2️⃣ Different Types of Testing (Overview)
+Testing can be classified based on levels & purpose.
+
+3️⃣ Integration Testing
+What is Integration Testing?
+Integration testing checks:
+Whether modules work correctly when combined.
+
+Why Needed?
+Individual modules may work fine
+Errors occur when they interact
+
+Types of Integration Testing:
+🔹 Top-Down
+Main module tested first
+Sub-modules added later
+Uses stubs
+
+🔹 Bottom-Up
+Low-level modules tested first
+Uses drivers
+
+🔹 Big Bang
+All modules integrated at once
+Hard to debug
+
+📌 Example:
+Login module + Database module + Dashboard module.
+
+4️⃣ System Testing
+What is System Testing?
+System testing checks:
+The complete system as a whole against requirements.
+
+Who Performs It?
+
+👉 Testers (QA team)
+Types under System Testing:
+Functional testing
+Performance testing
+Security testing
+Usability testing
+
+📌 Example:
+Testing an entire e-commerce website before release.
+
+🧠 Exam Line:
+System testing is done after integration testing.
+
+5️⃣ User Acceptance Testing (UAT)
+What is UAT?
+UAT is performed to:
+Verify the software is acceptable to the end user/client.
+
+Who Performs UAT?
+Client
+Business users
+End users
+
+When?
+After system testing
+Before production release
+
+📌 Example:
+Client checks whether billing system meets business needs.
+
+🧠 Important:
+If UAT fails → software is NOT released.
+
+6️⃣ Testing Levels (Quick View)
+Level	Done By	Purpose
+Unit Testing	Developers	Test individual units
+Integration Testing	Testers	Test module interaction
+System Testing	Testers	Test whole system
+UAT	Users/Clients	Business validation
+
+🎯 Common Beginner Mistakes
+❌ Skipping integration testing
+❌ Automating everything blindly
+❌ Confusing UAT with system testing
+❌ Ignoring user feedback
+
+🧠 Interview Questions (VERY IMPORTANT)
+Q: Why not automate everything?
+➡ Some tests require human judgment (UI/UX).
+
+Q: Difference between System Testing & UAT?
+➡ System testing = technical
+➡ UAT = business validation
