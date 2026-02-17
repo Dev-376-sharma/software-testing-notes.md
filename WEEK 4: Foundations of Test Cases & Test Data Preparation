@@ -1,0 +1,131 @@
+WEEK 4: Foundations of Test Cases & Test Data Preparation
+1️⃣ What is a Test Case?
+A Test Case is a set of steps written to verify whether a specific feature of the software is working as expected.
+
+🧠 Simple definition (exam ready):
+A test case is a document that describes the steps, input, and expected result to test a software feature.
+
+2️⃣ Why Test Cases are IMPORTANT?
+
+✅ Ensures proper coverage
+✅ Avoids missing scenarios
+✅ Helps new testers understand the system
+✅ Useful for regression testing
+✅ Acts as documentation
+
+📌 Industry fact:
+Companies do not test without test cases (except exploratory testing).
+
+3️⃣ Standard Test Case Format
+
+Most companies follow something close to this:
+Field                	Description
+Test Case ID	        Unique identifier
+Test Scenario	        What to test
+Preconditions	        Setup before testing
+Test Steps	          Step-by-step actions
+Test Data	            Input values
+Expected Result	      What should happen
+Actual Result	        What actually happened
+Status	              Pass / Fail
+Remarks              	Additional notes
+
+4️⃣ Example: Login Page Test Case
+
+
+Test Case ID: TC_LOGIN_01
+Scenario: Verify login with valid credentials
+
+Preconditions:
+User must be registered
+
+Steps:
+Open login page
+Enter valid username
+Enter valid password
+Click Login
+
+Test Data:
+Username: test@gmail.com
+Password: Test@123
+
+Expected Result:
+User should be redirected to dashboard
+Status: Pass
+
+5️⃣ What is a Test Suite?
+A Test Suite is a collection of related test cases.
+
+📌 Example:
+Login Test Suite contains:
+Valid login test
+Invalid login test
+Blank fields test
+Forgot password test
+
+🧠 One-liner:
+Test suite groups similar test cases together.
+
+6️⃣ Executing Test Cases
+Test Execution means:
+Running test cases and comparing expected vs actual results.
+
+Steps:
+Prepare test environment
+Execute test cases
+Note actual results
+Mark Pass/Fail
+Report defects if any
+
+📌 Real Life:
+If expected ≠ actual → BUG FOUND
+
+7️⃣ Recording Test Results
+
+After execution, results are recorded as:
+Pass – Feature works as expected
+Fail – Mismatch found
+Blocked – Cannot test due to dependency
+Not Executed – Test not run yet
+
+🧠 Interview Tip:
+Blocked ≠ Failed
+
+8️⃣ Defect (Bug) Tracking – Intro
+A Defect/Bug is:
+A deviation between expected and actual result.
+
+When do we log a bug?
+Test case fails
+Application crashes
+Incorrect behavior observed
+
+📌 Example:
+Password field accepts only 6 chars but requirement says 8.
+
+9️⃣ Entry Criteria & Exit Criteria (VERY IMPORTANT)
+🔹 Entry Criteria
+Conditions that must be met before testing starts.
+
+Examples:
+Requirements approved
+Test cases ready
+Test environment available
+
+🔹 Exit Criteria
+Conditions to stop testing.
+Examples:
+All test cases executed
+Critical bugs fixed
+Test coverage achieved
+
+🧠 Easy difference:
+Entry → When to START
+Exit → When to STOP
+
+🎯 Common Beginner Mistakes
+
+❌ Writing vague test steps
+❌ Missing expected results
+❌ Not updating test status
+❌ Logging duplicate bugs
