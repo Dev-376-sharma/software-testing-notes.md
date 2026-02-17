@@ -1,0 +1,118 @@
+WEEK 5: Test Scenarios & Test Design Techniques (DETAILED)
+1️⃣ What is a Test Scenario?
+A Test Scenario describes WHAT to test, not how.
+
+🧠 Simple definition:
+A test scenario is a high-level description of a functionality to be tested.
+
+📌 Example:
+“Verify login functionality”
+This single scenario can generate multiple test cases.
+
+2️⃣ Test Scenario vs Test Case (VERY IMPORTANT)
+Test Scenario	        Test Case
+High-level	          Detailed
+WHAT to test	        HOW to test
+One line	            Step-by-step
+Covers broad flow	    Covers specific condition
+
+📌 Interview line:
+A test scenario can have multiple test cases.
+
+3️⃣ Why Test Scenarios are IMPORTANT?
+
+✅ Better test coverage
+✅ Helps identify all possible flows
+✅ Easy to review
+✅ Saves time during test case design
+✅ Useful for UAT & regression planning
+
+4️⃣ Example: Login Module
+🔹 Test Scenarios:
+Verify login with valid credentials
+Verify login with invalid credentials
+Verify login with blank field
+Verify password masking
+Verify “Forgot Password” functionality
+
+🔹 One Scenario → Multiple Test Cases
+Scenario: Verify login with invalid credentials
+
+Test cases:
+Invalid username + valid password
+Valid username + invalid password
+Invalid username + invalid password
+
+5️⃣ How to Write Good Test Scenarios
+Step-by-step:
+Read requirements carefully
+Identify user actions
+Think like end user
+Cover positive & negative flows
+Include edge cases
+
+🧠 Golden rule:
+If user can do it → test it.
+
+6️⃣ Introduction to Test Design Techniques
+Test Design Techniques help reduce:
+Redundant test cases
+Testing effort
+Time
+
+While increasing:
+Defect detection
+Coverage
+
+7️⃣ Black Box Testing Techniques (Focus Area)
+Tester does not see code, only inputs & outputs.
+
+8️⃣ Equivalence Partitioning (EP)
+What is EP?
+Divide input data into valid and invalid partitions and test one value from each.
+
+📌 Example: Age field (18–60)
+Partition	Example
+Valid	25
+Invalid	10, 70
+
+🧠 Saves effort by avoiding unnecessary tests.
+
+9️⃣ Boundary Value Analysis (BVA)
+What is BVA?
+Test values at boundaries, where bugs usually occur.
+
+📌 Example: Password length 8–16
+Test:
+7 ❌
+8 ✅
+16 ✅
+17 ❌
+
+🧠 Interview tip:
+Most defects occur at boundaries.
+
+🔟 Decision Table Testing
+What is it?
+Used when multiple conditions & outcomes exist.
+
+📌 Example: Login system
+Username	Password	Result
+Valid	Valid	Login success
+Valid	Invalid	Error
+Invalid	Valid	Error
+Invalid	Invalid	Error
+
+1️⃣1️⃣ State Transition Testing
+Used when:
+System changes states based on input.
+
+📌 Example:
+ATM machine
+Login attempts (locked after 3 failures)
+
+🎯 Common Beginner Mistakes
+❌ Writing test cases without scenarios
+❌ Ignoring negative scenarios
+❌ Not using EP & BVA
+❌ Over-testing obvious cases
