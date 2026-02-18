@@ -1,0 +1,128 @@
+WEEK 6: Test Execution, Test Strategy & Test Planning (DETAILED)
+1️⃣ What is Test Execution?
+Test Execution is the process of:
+Running test cases on the application and comparing expected results with actual results.
+
+Simple Flow:
+Test Case → Execute → Compare → Pass / Fail → Log Defect (if any)
+
+📌 Key Point:
+Test execution starts only after test cases & environment are ready.
+
+2️⃣ Test Execution Process (Step-by-Step)
+Review test cases
+Prepare test data
+Set up test environment
+Execute test cases
+Record actual results
+Log defects
+Re-test fixed defects
+Perform regression testing
+
+🧠 Interview line:
+Test execution ensures software behaves as expected under defined conditions.
+
+3️⃣ What is Test Strategy?
+A Test Strategy is a high-level document that defines:
+HOW testing will be done in the project.
+
+Prepared By:
+👉 Test Manager / Test Lead
+Test Strategy Includes:
+Scope of testing
+Types of testing
+Testing approach
+Tools to be used
+Risk analysis
+Entry & Exit criteria
+
+📌 Important:
+Test strategy is common for multiple projects.
+
+4️⃣ What is Test Plan?
+A Test Plan is a detailed document that describes:
+WHAT, WHEN, WHO, and HOW much testing will be done.
+
+Prepared By:
+👉 Test Lead / QA Manager
+Test Plan Includes:
+Objectives
+Scope (in-scope / out-of-scope)
+Test schedule
+Resources
+Test environment
+Deliverables
+Risks & mitigation
+
+📌 Exam Tip:
+Test plan is project-specific.
+
+5️⃣ Test Strategy vs Test Plan (VERY IMPORTANT)
+Test Strategy	Test Plan
+High-level	Detailed
+Organization-level	Project-level
+Defines approach	Defines execution
+Stable	Changes per project
+
+🧠 Interview ready line:
+Test strategy defines the testing approach, while test plan defines testing activities.
+
+6️⃣ Entry Criteria & Exit Criteria (Revision + Depth)
+🔹 Entry Criteria (Start Testing When):
+Requirements approved
+Test cases reviewed
+Test environment ready
+Build received
+
+🔹 Exit Criteria (Stop Testing When):
+All test cases executed
+Critical defects fixed
+Test coverage achieved
+Test summary report prepared
+
+7️⃣ What is Regression Testing?
+Regression Testing ensures:
+New changes did not break existing functionality.
+
+📌 Example:
+After fixing login bug → test signup, logout, dashboard again.
+
+🧠 Important:
+Regression testing is best suited for automation.
+
+8️⃣ What is Re-Testing?
+
+Re-Testing means:
+Testing the same test case again after defect is fixed.
+
+Re-Testing	Regression
+Specific defect	Entire system
+Manual mostly	Often automated
+
+9️⃣ Test Environment
+What is Test Environment?
+Combination of:
+Hardware
+Software
+Network
+Test data
+
+📌 Example:
+Browser + OS + Database + Server
+
+🧠 Exam Line:
+A stable test environment ensures accurate test results.
+
+🔟 Test Deliverables
+Documents created during testing:
+Test Plan
+Test Cases
+Defect Reports
+Test Summary Report
+
+🎯 Common Beginner Mistakes
+
+❌ Starting execution without plan
+❌ Skipping regression
+❌ Poor environment setup
+❌ Not updating test status
